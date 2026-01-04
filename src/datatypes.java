@@ -12,7 +12,19 @@ public class datatypes {
         System.out.printf("You are %d years old\n", age);
 
         String name = "Kiran";
-        System.out.printf("Hi Mr %s", name);
+        System.out.printf("Hi Mr %s\n", name);
+
+
+        double salary = 500.52;
+        double temperature = 25.32;
+
+        System.out.println("The salary of employee at company is "+salary);
+
+
+        char grade = 'A';
+        char currency = '$';
+        System.out.println("You get an "+grade +" grade in Nepali");
+
 
 
     }
