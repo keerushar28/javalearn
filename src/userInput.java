@@ -3,9 +3,7 @@ public class userInput {
     public static  void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your name:");
-        String fname = scanner.nextLine();
-        String  name =   fname.toUpperCase();
-        System.out.println("Hi Mr."+ name);
+        String name = scanner.nextLine();
 
     //string, int, double, float
         System.out.print("Enter your age:");
@@ -26,8 +24,16 @@ public class userInput {
         } else {
              grade = "NG";
         }
+        System.out.print("Are you a student (true/false):");
+        boolean isStudent = scanner.nextBoolean();
         System.out.println("Hello Mr."+name+ " you are "+age+" years old, your salary is "+salary+" and your grade is "+grade);
-
+        if (isStudent)
+        {
+            System.out.println("You are eligible for the education pack");
+        }
+        else {
+            System.out.println("Sorry you are not eligible for the github education pack");
+        }
 
         scanner.close();
     }
