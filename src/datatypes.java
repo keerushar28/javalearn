@@ -11,19 +11,16 @@ public class datatypes {
         int age = 25; //this is integer data type
         System.out.printf("You are %d years old\n", age);
 
-        String name = "Kiran";
-        System.out.printf("Hi Mr %s\n", name);
-
-
         double salary = 500.52;
         double temperature = 25.32;
 
         System.out.println("The salary of employee at company is "+salary);
+        System.out.println("Current temperature is "+temperature);
 
 
         char grade = 'A';
         char currency = '$';
-        System.out.println("You get an "+grade +" grade in Nepali");
+        System.out.println("You get an "+grade +" grade in Nepali but the currency is "+currency +"haha that's sounds funny");
 
 
         boolean isOnline = true;
@@ -31,26 +28,35 @@ public class datatypes {
         boolean isTeacher = true;
 
         System.out.println("Is he a teacher answer is: "+ isTeacher);
+        if (!isStudent){
+            System.out.println("Sorry you are not eligible");
+        }
+        else {
+            System.out.println("You are eligible for Github Education Pack");
+        }
 
-        String fullName = "Kiran Gautam";
-        System.out.println("Hi Mr: "+ fullName);
+        if(!isOnline){
+            System.out.println("You cannot do video call");
+        }
+        else {
+            System.out.println("You can do video call enjoy");
+        }
+
 
         char a = 65;
         System.out.println("the value of a is: "+a);
 
-        if (isStudent){
-            System.out.println("You are eligible for Github Education Pack");
-        }
-        else {
-            System.out.println("Sorry your are not eligible for education pack see you next year");
-        }
+        //this is end of the primitive data types now learn about reference
+        String fullName = "Kiran Gautam";
+        String email = "Kiran@123";
+        String car = "Mustang";
 
-        if(isOnline){
-            System.out.println("You can do video call");
-        }
-        else {
-            System.out.println("Sorry you cant do video call please turn on wifi");
-        }
+        System.out.println("Mr: "+fullName+ " with the email "+ email +" buys a car "+ car);
+
+        //this is the end of the variables and unit 3 we will be back soon on unit 3
+
+
+
 
 
 
