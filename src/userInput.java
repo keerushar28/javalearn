@@ -35,6 +35,18 @@ public class userInput {
             System.out.println("Sorry you are not eligible for the github education pack");
         }
 
+        //illustrating common issue
+        System.out.print("Enter your Age:");
+        int ageStr = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Enter your favorite color");
+        String color = scanner.nextLine();
+        System.out.println("You are "+ageStr+ " years old and your fav color is "+color);
+
+        //this error occurs because on scanner.nextInt() and scanner.nextLine() accepts age/n to fix simply
+        //use either scanner.nextLine() after age or on color use .next()
+
+
         scanner.close();
     }
 }
