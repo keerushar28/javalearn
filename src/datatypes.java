@@ -26,6 +26,17 @@ public class datatypes {
         System.out.println("You get an "+grade +" grade in Nepali");
 
 
+        boolean isOnline = true;
+        boolean isStudent = false;
+        boolean isTeacher = true;
+
+        System.out.println("Is he a teacher answer is: "+ isTeacher);
+
+        String fullName = "Kiran Gautam";
+        System.out.println("Hi Mr: "+ fullName);
+
+        char a = 65;
+        System.out.println("the value of a is: "+a);
 
     }
 
