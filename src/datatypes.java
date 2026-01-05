@@ -38,6 +38,22 @@ public class datatypes {
         char a = 65;
         System.out.println("the value of a is: "+a);
 
+        if (isStudent){
+            System.out.println("You are eligible for Github Education Pack");
+        }
+        else {
+            System.out.println("Sorry your are not eligible for education pack see you next year");
+        }
+
+        if(isOnline){
+            System.out.println("You can do video call");
+        }
+        else {
+            System.out.println("Sorry you cant do video call please turn on wifi");
+        }
+
+
+
     }
 
 }
