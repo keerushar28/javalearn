@@ -53,5 +53,15 @@ public class Arithmetic {
         //remainder
         a%=b;
         System.out.println("Remainder is: "+a);
+
+
+        //increment and decrement operators
+
+        int k =5;
+        k++;
+        System.out.println(k);
+        --k;
+        k--;
+        System.out.println(k);
     }
 }
