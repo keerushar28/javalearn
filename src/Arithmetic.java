@@ -6,6 +6,7 @@ public class Arithmetic {
         int y= 3;
         int z;
 
+        System.out.println("Printing Using Normal Arithmetic Operations");
         //Addition
         z = x+y;
         System.out.println("The addition of x and y is: "+z);
@@ -25,5 +26,32 @@ public class Arithmetic {
         //remainder
         z=x%y;
         System.out.println("Remainder of x /y is: "+z);
+
+
+        System.out.println("Augmented Operations");
+
+        //this is quite complex there is another method called augmented arithmetic operations without extra variable
+        int a =10;
+        int b=4;
+
+        //addition
+        a+=b;
+        System.out.println("Sum is: "+a);
+
+        //difference
+        a-=b;
+        System.out.println("Difference is: "+a);
+
+        //product
+        a*=b;
+        System.out.println("Product is: "+a);
+
+        //division
+        a/=b;
+        System.out.println("Quotient is: "+a);
+
+        //remainder
+        a%=b;
+        System.out.println("Remainder is: "+a);
     }
 }
