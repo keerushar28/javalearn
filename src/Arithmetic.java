@@ -63,5 +63,9 @@ public class Arithmetic {
         --k;
         k--;
         System.out.println(k);
+
+        //order of mathematics operations is [P-E-M-D-A-S from left to right]
+        double result = 2+6*8+9-4/2.0+(2-8);
+        System.out.println(result);
     }
 }
