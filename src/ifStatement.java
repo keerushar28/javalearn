@@ -9,6 +9,12 @@ public class ifStatement {
         int age;
         System.out.println("Enter a number to be checked");
         x= scanner.nextInt();
+        scanner.nextLine();
+        String name;
+        System.out.print("Enter Your Name ");
+        name = scanner.nextLine();
+        System.out.println("Enter your age");
+        age= scanner.nextInt();
 
         if (x%2==0)
         {
@@ -19,8 +25,7 @@ public class ifStatement {
         }
 
         //if else-if and else
-        System.out.println("Enter your age");
-        age= scanner.nextInt();
+
 
         if (age>=60)
         {
@@ -35,6 +40,17 @@ public class ifStatement {
         else {
             System.out.println("Invalid age");
         }
+
+        if (name.isEmpty()){
+            System.out.println("You didn't enter your name !");
+        }
+        else {
+            System.out.println("Hello Mr."+name);
+        }
+
+        //today's learning after reading the integer we should always use scanner.nextLine();
+
+
 
 
         scanner.close();
