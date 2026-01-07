@@ -15,6 +15,9 @@ public class ifStatement {
         name = scanner.nextLine();
         System.out.println("Enter your age");
         age= scanner.nextInt();
+        boolean isStudent;
+        System.out.println("Are you a student (true/false)");
+        isStudent = scanner.nextBoolean();
 
         if (x%2==0)
         {
@@ -49,6 +52,14 @@ public class ifStatement {
         }
 
         //today's learning after reading the integer we should always use scanner.nextLine();
+
+        if (isStudent)
+        {
+            System.out.println("You are eligible for the Github Education Pack 😍😍😍");
+        }
+        else {
+            System.out.println("Sorry you are not eligible 😢😢");
+        }
 
 
 
