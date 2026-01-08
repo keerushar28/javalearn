@@ -1,6 +1,8 @@
+import java.util.Scanner;
 public class mathJava {
     public static void main(String[] args)
     {
+        Scanner scanner = new Scanner(System.in);
         System.out.println(Math.PI);
         System.out.println(Math.E);
 
@@ -22,6 +24,23 @@ public class mathJava {
         System.out.println(result);
         result = Math.floor(3.365);
         System.out.println(result);
+
+
+        //Pythagoras theorem
+        double h;
+        double p;
+        double b;
+        System.out.println("Enter the perpendicular");
+        p=scanner.nextDouble();
+
+        System.out.println("Enter the base");
+        b= scanner.nextDouble();
+
+
+        h=Math.sqrt(Math.pow(p,2)+Math.pow(b,2));
+        System.out.println(h);
+
+
 
 
 
