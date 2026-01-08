@@ -41,6 +41,29 @@ public class mathJava {
         System.out.println(h);
 
 
+        //perimeter,area and volume of the Circle
+        double r;
+        double pr;
+        double a;
+        double v;
+
+        System.out.println("Enter the radius of circle");
+        r=scanner.nextDouble();
+
+        //perimeter
+        pr= 2*Math.PI * r;
+        System.out.println("The perimeter of circle is: "+pr);
+
+        //area
+        a = Math.PI * Math.pow(r,2);
+        System.out.println("The area of circle is:"+a);
+
+        //volume
+        v= (4/3.0)*Math.PI*Math.pow(r,3);
+        System.out.println("The volume of circle/sphere is: "+v);
+
+
+
 
 
 
