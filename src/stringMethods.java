@@ -4,5 +4,9 @@ public class stringMethods {
         String name  = "Kiran Gautam";
         int len = name.length();
         System.out.println(len);
+
+        //charAt
+        char letter = name.charAt(10);
+        System.out.println(letter);
     }
 }
