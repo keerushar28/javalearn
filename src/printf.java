@@ -46,7 +46,31 @@ public class printf {
 
         //space
         System.out.printf("% ,.2f\n",c);
-        System.out.printf("% ,.2f",b);
+        System.out.printf("% ,.2f\n",b);
+
+        //[width] in java
+        //0= no padding
+        //number = right
+        //negative = left justified
+
+        int id1 =52;
+        int id2=678;
+        int id3=7890;
+
+        //0 padding
+        System.out.printf("%04d\n",id1); //0052
+        System.out.printf("%04d\n",id2); //0678
+        System.out.printf("%04d\n",id3); //7890
+
+        //number padding
+        System.out.printf("%4d\n",id1); //right justified [space][space]52
+        System.out.printf("%4d\n",id2);
+        System.out.printf("%4d\n",id3);
+
+        //negative
+        System.out.printf("%-4d\n",id1);
+        System.out.printf("%-4d\n",id2);
+        System.out.printf("%-4d\n",id3);
 
 
 
