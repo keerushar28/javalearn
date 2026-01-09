@@ -27,6 +27,29 @@ public class printf {
         System.out.printf("%.2f\n",b);
         System.out.printf("%.2f\n",c);
 
+        //flags
+        //+ to print + sign before the output
+        //, = group separator //comma international useful in case of paisa ko hisab
+        // ( = negative number are enclosed in ()
+        // space = minus before negative and space before positive
+
+        //+
+        System.out.printf("%+.2f\n",a);
+        System.out.printf("%+.2f\n",b);
+        System.out.printf("%+.2f\n",c);
+
+        //,
+        System.out.printf("%,.2f\n",c);
+
+        //(
+        System.out.printf("%(.2f\n",c);
+
+        //space
+        System.out.printf("% ,.2f\n",c);
+        System.out.printf("% ,.2f",b);
+
+
+
 
 
 
