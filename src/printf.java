@@ -17,5 +17,18 @@ public class printf {
                 " %f Per month\n",name,firstLetter,age,salary);
 
         System.out.printf("Are you teacher? Answer is %b\n",isTeacher);
+
+        //precision in java  add after %sign %paxi jati kun number rakhne vanda jatai chainxa
+        // teti like if you need 2 after decimal .2 and soon
+        double a=5.023;
+        double b= 360.62;
+        double c = -3663.35;
+        System.out.printf("%.2f\n",a);
+        System.out.printf("%.2f\n",b);
+        System.out.printf("%.2f\n",c);
+
+
+
+
     }
 }
