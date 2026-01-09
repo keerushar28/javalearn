@@ -1,7 +1,8 @@
 public class stringMethods {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
         //length method
-        String name  = "Kiran Gautam";
+        String name = "Kiran Gautam";
         int len = name.length();
         System.out.println(len);
 
@@ -16,6 +17,34 @@ public class stringMethods {
         int lastIndex = name.lastIndexOf('a');
         System.out.println(lastIndex);
 
+        //to convert to the uppercase
+        String upperCase = name.toUpperCase();
+        System.out.println(upperCase);
+
+        //to lowerCase
+        String lowerCase = name.toLowerCase();
+        System.out.println(lowerCase);
+        boolean isEmpty = name.isEmpty();
+        System.out.println(isEmpty);
+        String firstName = "Kiran";
+        String lastName = "Gautam";
+        String fullName = firstName.concat(lastName);
+        System.out.println(fullName);
+
+        String uname = "Kiran4";
+        String password = "Kiran";
+        if (uname.equals(password)) {
+            System.out.println("Password and uname cannot be same for security purpose");
+        } else {
+            System.out.println("Login Successful");
+        }
+
+        if (name.contains(" ")) {
+            System.out.println("Contains space use trim method");
+        }
+
+        String afterTrim = name.trim();
+        System.out.println(afterTrim);
 
 
     }
