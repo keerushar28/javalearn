@@ -9,7 +9,7 @@ public class nestedIf {
         if (isStudent) {
             if (isSenior) {
                 System.out.println("You get an senior discount of 20%");
-                System.out.println("You get an student discount of 10%");
+                System.out.println("You get an student discount of 50%");
                 price *= 0.7;
             } else {
                 System.out.println("You get an student discount of 10%");
