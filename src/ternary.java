@@ -5,6 +5,9 @@ public class ternary {
         int score = 8;
         String res = (score>=80)?"PASS":"FALSE";
         System.out.println(res);
+        String evenOrOdd = score % 2==0?"Even":"odd";
+        System.out.println(evenOrOdd);
+
     }
 
 }
